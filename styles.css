@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.divnav {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+.navl li a:hover {
+    background-color: rgb(47, 47, 47);
+    border-radius: 2.5px;
+    padding: 3px;
+    color:  rgb(230, 174, 128);
+    cursor: pointer;
+}
+
+
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(235, 169, 116);
+    font-size: larger;
+    transition: .5s;
+}
+
+.nav li a{
+    text-decoration:dashed;
+  }
+  
+
+.logo {
+    color:  #d50707;
+    font-size: x-large;
+}
+
+.logo:hover{
+    transition: 1.5s;
+    color: cadetblue;
+}
+
+.smain {
+    background-image: url('/pexels-andreea-ch-1166643.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    width: 100%;
+    background-color: #ffffff;
+
+
+}
+
+#hi {
+    padding-top: 180px;
+    padding-left: 100px;
+    font-size: 6vw;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#name {
+    padding-top: 4px;
+    padding-left: 100px;
+    font-size: 5vw;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#wd {
+    padding-top: 5px;
+    padding-left: 100px;
+    font-size: 3vw;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* ------------------------about----------------------- */
+.about {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.man {
+    padding-top: 50px;
+    height: 370px;
+    width: 100%;
+}
+
+.rigth {
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rigth h3{
+    color: cadetblue;
+}
+
+.rigth h2{
+    color: rgb(46, 46, 162);
+}
+/* -------------------------port-------------------- */
+.pinfo{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+.Portfolio {
+    padding-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinfo h4{
+    color: cadetblue;
+}
+.pinfo h1{
+    color: rgb(46, 46, 162);
+}
+#p {
+    width: 300px;
+    height: 300px;
+   
+}
+
+.pimg{
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.pot1{
+    display: flex;
+    justify-content: center;
+}
+/* --------------------contact---------------- */
+.commtitle{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.commtitle h1{
+    color: rgb(46, 46, 162);
+}
+
+.commtitle h4{
+    color: cadetblue;
+}
+.inputname{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mess{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nameinput{
+    height: 30px;
+}
+
+
+#email{
+    height: 30px;
+}
+#mess{
+    height: 200px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.sentmess{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.sentmess:hover{
+    background-color: rgb(4, 4, 3);
+    color: #ffffff;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.sumitdiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
