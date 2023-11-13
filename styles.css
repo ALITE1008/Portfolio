@@ -60,6 +60,7 @@ a {
 
 .smain {
     background-image: url("pexels-andreea-ch-1166643.jpg");
+    background-blend-mode:normal;
     background-size: cover;
     background-position: center;
     height: 560px;
@@ -208,16 +209,20 @@ a {
 
 #nameinput{
     height: 30px;
+    text-align: center;
 }
 
 
 #email{
     height: 30px;
+    text-align: center
+  
 }
 #mess{
     height: 200px;
     width: 350px;
     margin-bottom: 20px;
+    text-align: center
 }
 
 .sentmess{
