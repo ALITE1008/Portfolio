@@ -5,6 +5,7 @@
 }
 
 .divnav {
+    background-color: #ffffff;
     position: absolute;
     display: flex;
     justify-content: space-around;
@@ -51,26 +52,40 @@ a {
 .logo {
     color:  #d50707;
     font-size: x-large;
+    
 }
 
+@media only screen and (max-width: 600px) {
+   .logo{
+    border-bottom: solid black 1px;
+    margin-bottom: 20px;
+  
+   }
+  }
 .logo:hover{
     transition: 1.5s;
     color: cadetblue;
 }
 
-.smain {
-    background-image: url("pexels-andreea-ch-1166643.jpg");
-    background-blend-mode:normal;
-    background-size: cover;
-    background-position: center;
+.maindiv{
     height: 560px;
     width: 100%;
-    background-color: #ffffff;
-
-
 }
 
+.smain {
+    background-image: url("pexels-andreea-ch-1166643.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+@media only screen and (min-width: 600px) {
+    .smain{
+        background-attachment: fixed;
+    }
+   }
 #hi {
+    color: rgb(40, 40, 144);
     padding-top: 180px;
     padding-left: 100px;
     font-size: 6vw;
@@ -78,6 +93,7 @@ a {
 }
 
 #name {
+    color:rgb(255, 205, 113);
     padding-top: 4px;
     padding-left: 100px;
     font-size: 5vw;
@@ -85,12 +101,28 @@ a {
 }
 
 #wd {
+    color: rgb(0, 0, 0);
     padding-top: 5px;
     padding-left: 100px;
     font-size: 3vw;
     font-family: 'Signika Negative', sans-serif;
 }
-
+@media only screen and (max-width: 600px) {
+    #hi{
+        font-size: 3rem;
+        padding-left: 50px;
+        padding-top: 210px;
+    }
+    #name{
+        font-size: 2rem;
+        padding-left: 50px;
+        
+    }
+    #wd{
+        font-size: 1.5rem;
+        padding-left: 50px;
+    }
+   }
 /* ------------------------about----------------------- */
 .about {
     background-color: white;
@@ -156,17 +188,27 @@ a {
     color: rgb(46, 46, 162);
 }
 #p {
-    width: 300px;
+    border: bisque solid 4px;
+    border-radius: 15px;
+    width: 290px;
     height: 300px;
    
 }
 
 .pimg{
+
     width: 290px;
     height: 300px;
     border-radius: 10px;
 }
 
+#p:hover{
+    border: black solid 6px;
+}
+
+.sub{
+    color: beige;
+}
 .pot1{
     display: flex;
     justify-content: center;
