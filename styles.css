@@ -13,6 +13,7 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+   
 
 }
 
@@ -26,17 +27,20 @@
 }
 
 .navl li a:hover {
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(87, 87, 87);
     border-radius: 2.5px;
-    padding: 3px;
+    padding: 2.5px;
     color:  rgb(230, 174, 128);
     cursor: pointer;
+    transition: 1s;
+
 }
 
 
 
-li,
-a {
+
+.li,
+.a {
     list-style: none;
     text-decoration: none;
     color: rgb(235, 169, 116);
@@ -52,6 +56,7 @@ a {
 .logo {
     color:  #d50707;
     font-size: x-large;
+    list-style: none;
     
 }
 
@@ -59,7 +64,7 @@ a {
    .logo{
     border-bottom: solid black 1px;
     margin-bottom: 20px;
-  
+    display: none;
    }
   }
 .logo:hover{
@@ -93,7 +98,7 @@ a {
 }
 
 #name {
-    color:rgb(255, 205, 113);
+    color:rgb(255, 166, 0);
     padding-top: 4px;
     padding-left: 100px;
     font-size: 5vw;
@@ -288,3 +293,42 @@ a {
     margin-bottom: 50px;
 }
 
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 50px;
+    column-gap: 5px;
+    
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }  
+
+ .fa-instagram{
+    /* background: #fa551e ; */
+    background-image: url('instback.jpg');
+    background-size: cover;
+    color: white;
+ }
+ .fa-linkedin{
+    background: #378fe9;
+    color: white;
+ } 
