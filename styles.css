@@ -27,12 +27,11 @@
 }
 
 .navl li a:hover {
-    background-color: rgb(87, 87, 87);
-    border-radius: 2.5px;
+    background-color: rgb(87, 87, 87);  
+    border-radius: 7px;
     padding: 2.5px;
-    color:  rgb(230, 174, 128);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
@@ -95,6 +94,17 @@
     padding-left: 100px;
     font-size: 6vw;
     font-family: 'Signika Negative', sans-serif;
+  
+}
+
+#hi:hover{
+    font-size: 6.5vw;
+}
+#name:hover{
+    font-size: 6.5vw;
+}
+#wd:hover{
+    font-size: 6.5vw;
 }
 
 #name {
@@ -212,12 +222,17 @@
 }
 
 .sub{
-    color: beige;
+    color: black;
 }
 .pot1{
     display: flex;
     justify-content: center;
 }
+
+.pot1 a{
+    text-decoration: none;
+}
+
 /* --------------------contact---------------- */
 .commtitle{
     padding-top: 100px;
@@ -292,7 +307,7 @@
     justify-content: center;
     margin-bottom: 50px;
 }
-
+/* -----------------------------------------soicalmedia---------------------------- */
 .sec{
     display: flex;
     justify-content: center;
